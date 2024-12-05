@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e17f1fdb-6211-492d-931c-22f56210d0ad" name="Imran@IMRANAHSAN 2023-09-07 10:03:50" runUser="IMRANAHSAN\Imran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-09-07T10:03:50.8078842-07:00" queuing="2023-09-07T10:03:50.8078842-07:00" start="2023-09-07T10:03:26.5531562-07:00" finish="2023-09-07T10:06:24.7527999-07:00" />
+  <TestSettings name="default" id="899bb736-67cb-4db4-98d4-075e7b45c822">
+    <Deployment runDeploymentRoot="Imran_IMRANAHSAN_2023-09-07_10_03_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e2afc7a1-92cd-4c73-944d-fa2bcb456fce" testId="964edce2-0bea-8622-4409-7b21a022c8f6" testName="login3 (Data Row 0)" computerName="IMRANAHSAN" duration="00:00:23.1202763" startTime="2023-09-07T10:03:27.1620474-07:00" endTime="2023-09-07T10:03:50.7893935-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2afc7a1-92cd-4c73-944d-fa2bcb456fce" />
+    <UnitTestResult executionId="cafc8e59-1dff-41ad-9fc6-d425491a7709" testId="d4600ac9-842d-3d52-35d3-b12022929d2b" testName="onboardtc (Data Row 0)" computerName="IMRANAHSAN" duration="00:00:34.2753131" startTime="2023-09-07T10:03:50.8044478-07:00" endTime="2023-09-07T10:04:25.0818966-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cafc8e59-1dff-41ad-9fc6-d425491a7709" />
+    <UnitTestResult executionId="8645e4a5-0fda-4b09-92e0-3bf034da772c" testId="9f749d8a-f6a0-0164-0888-c5894a88447d" testName="TestMethod1" computerName="IMRANAHSAN" duration="00:00:00.0001035" startTime="2023-09-07T10:06:20.4209230-07:00" endTime="2023-09-07T10:06:20.4209230-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8645e4a5-0fda-4b09-92e0-3bf034da772c" />
+    <UnitTestResult executionId="367a7a40-0014-42e9-8942-fbab6e72d244" testId="4c75769c-18e1-6d18-8322-fbdf1a5d6552" testName="reportin3 (Data Row 0)" computerName="IMRANAHSAN" duration="00:01:55.3364390" startTime="2023-09-07T10:04:25.0818966-07:00" endTime="2023-09-07T10:06:20.4199243-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="367a7a40-0014-42e9-8942-fbab6e72d244" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="login3" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="964edce2-0bea-8622-4409-7b21a022c8f6">
+      <Execution id="e2afc7a1-92cd-4c73-944d-fa2bcb456fce" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.LoginTC" name="login3" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="9f749d8a-f6a0-0164-0888-c5894a88447d">
+      <Execution id="8645e4a5-0fda-4b09-92e0-3bf034da772c" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="reportin3" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="4c75769c-18e1-6d18-8322-fbdf1a5d6552">
+      <Execution id="367a7a40-0014-42e9-8942-fbab6e72d244" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.ReportTC" name="reportin3" />
+    </UnitTest>
+    <UnitTest name="onboardtc" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="d4600ac9-842d-3d52-35d3-b12022929d2b">
+      <Execution id="cafc8e59-1dff-41ad-9fc6-d425491a7709" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.OnboardTC" name="onboardtc" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="964edce2-0bea-8622-4409-7b21a022c8f6" executionId="e2afc7a1-92cd-4c73-944d-fa2bcb456fce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4600ac9-842d-3d52-35d3-b12022929d2b" executionId="cafc8e59-1dff-41ad-9fc6-d425491a7709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f749d8a-f6a0-0164-0888-c5894a88447d" executionId="8645e4a5-0fda-4b09-92e0-3bf034da772c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c75769c-18e1-6d18-8322-fbdf1a5d6552" executionId="367a7a40-0014-42e9-8942-fbab6e72d244" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

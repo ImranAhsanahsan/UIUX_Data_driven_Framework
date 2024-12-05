@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3eb57a2b-4dfc-4ba0-ad43-2e1afab717b2" name="Imran@IMRANAHSAN 2023-12-26 15:35:18" runUser="IMRANAHSAN\Imran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-26T15:35:18.2790884+05:00" queuing="2023-12-26T15:35:18.2790884+05:00" start="2023-12-26T15:35:01.1742529+05:00" finish="2023-12-26T15:38:04.6277486+05:00" />
+  <TestSettings name="default" id="91a8435d-f56d-450b-9b99-edf50f9ff22f">
+    <Deployment runDeploymentRoot="Imran_IMRANAHSAN_2023-12-26_15_35_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9be95255-2aa7-4025-9ea3-192abc36dc81" testId="964edce2-0bea-8622-4409-7b21a022c8f6" testName="login3 (Data Row 0)" computerName="IMRANAHSAN" duration="00:00:15.0075978" startTime="2023-12-26T15:35:02.5468145+05:00" endTime="2023-12-26T15:35:18.2526385+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9be95255-2aa7-4025-9ea3-192abc36dc81" />
+    <UnitTestResult executionId="015daaa2-e529-41cb-8fab-ebcb5a3226ee" testId="d4600ac9-842d-3d52-35d3-b12022929d2b" testName="onboardtc (Data Row 0)" computerName="IMRANAHSAN" duration="00:00:30.5879712" startTime="2023-12-26T15:35:18.2757647+05:00" endTime="2023-12-26T15:35:48.8653588+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="015daaa2-e529-41cb-8fab-ebcb5a3226ee" />
+    <UnitTestResult executionId="b3854b92-fd35-4a85-bc0e-ec418123e5e8" testId="9f749d8a-f6a0-0164-0888-c5894a88447d" testName="TestMethod1" computerName="IMRANAHSAN" duration="00:00:00.0001156" startTime="2023-12-26T15:37:55.8612346+05:00" endTime="2023-12-26T15:37:55.8627019+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3854b92-fd35-4a85-bc0e-ec418123e5e8" />
+    <UnitTestResult executionId="d035b299-c472-4972-80f1-4524c20ccb8f" testId="4c75769c-18e1-6d18-8322-fbdf1a5d6552" testName="reportin3 (Data Row 0)" computerName="IMRANAHSAN" duration="00:01:09.8845766" startTime="2023-12-26T15:35:48.8663571+05:00" endTime="2023-12-26T15:36:58.7532880+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d035b299-c472-4972-80f1-4524c20ccb8f" />
+    <UnitTestResult executionId="0d21a604-d623-4fcc-9969-c6d5bbe27e4d" testId="d854f26b-aa3d-f60c-da6a-ad53b4c27762" testName="Settingtcc (Data Row 0)" computerName="IMRANAHSAN" duration="00:00:57.1048210" startTime="2023-12-26T15:36:58.7532880+05:00" endTime="2023-12-26T15:37:55.8612346+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d21a604-d623-4fcc-9969-c6d5bbe27e4d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UIUXSECOND.SettingTC.Settingtcc threw exception: &#xD;
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 40 seconds ---&gt; OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='User Management']"}
+  (Session info: chrome=120.0.6099.111); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(By by)&#xD;
+   at UIUXSECOND.BasePage.&lt;&gt;c__DisplayClass12_0.&lt;WaitForElement&gt;b__0(IWebDriver driver) in C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\BasePage.cs:line 214&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+--- End of inner exception stack trace ---&#xD;
+    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at UIUXSECOND.BasePage.WaitForElement(By by) in C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\BasePage.cs:line 212&#xD;
+   at UIUXSECOND.SetingPage.Settingp() in C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\UIUX Project\Settings\SettingPage.cs:line 39&#xD;
+   at UIUXSECOND.SettingTC.Settingtcc() in C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\UIUX Project\Settings\SettingTC.cs:line 64&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Settingtcc" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="d854f26b-aa3d-f60c-da6a-ad53b4c27762">
+      <Execution id="0d21a604-d623-4fcc-9969-c6d5bbe27e4d" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.SettingTC" name="Settingtcc" />
+    </UnitTest>
+    <UnitTest name="login3" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="964edce2-0bea-8622-4409-7b21a022c8f6">
+      <Execution id="9be95255-2aa7-4025-9ea3-192abc36dc81" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.LoginTC" name="login3" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="9f749d8a-f6a0-0164-0888-c5894a88447d">
+      <Execution id="b3854b92-fd35-4a85-bc0e-ec418123e5e8" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="reportin3" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="4c75769c-18e1-6d18-8322-fbdf1a5d6552">
+      <Execution id="d035b299-c472-4972-80f1-4524c20ccb8f" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.ReportTC" name="reportin3" />
+    </UnitTest>
+    <UnitTest name="onboardtc" storage="c:\users\imran\source\repos\uiuxsecond\uiuxsecond\bin\debug\uiuxsecond.dll" id="d4600ac9-842d-3d52-35d3-b12022929d2b">
+      <Execution id="015daaa2-e529-41cb-8fab-ebcb5a3226ee" />
+      <TestMethod codeBase="C:\Users\Imran\source\repos\UIUXSECOND\UIUXSECOND\bin\Debug\UIUXSECOND.dll" adapterTypeName="executor://mstestadapter/v2" className="UIUXSECOND.OnboardTC" name="onboardtc" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="964edce2-0bea-8622-4409-7b21a022c8f6" executionId="9be95255-2aa7-4025-9ea3-192abc36dc81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4600ac9-842d-3d52-35d3-b12022929d2b" executionId="015daaa2-e529-41cb-8fab-ebcb5a3226ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f749d8a-f6a0-0164-0888-c5894a88447d" executionId="b3854b92-fd35-4a85-bc0e-ec418123e5e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c75769c-18e1-6d18-8322-fbdf1a5d6552" executionId="d035b299-c472-4972-80f1-4524c20ccb8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d854f26b-aa3d-f60c-da6a-ad53b4c27762" executionId="0d21a604-d623-4fcc-9969-c6d5bbe27e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
